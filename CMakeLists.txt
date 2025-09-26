@@ -39,7 +39,7 @@ set(HIP_SUPPORTED_ARCHS "gfx906;gfx908;gfx90a;gfx940;gfx941;gfx942;gfx1030;gfx11
 # Note: these should be kept in sync with the torch version in setup.py.
 # Likely should also be in sync with the vLLM version.
 #
-set(TORCH_SUPPORTED_VERSION_CUDA "2.4.0")
+set(TORCH_SUPPORTED_VERSION_CUDA "2.7.1")
 
 find_python_constrained_versions(${PYTHON_SUPPORTED_VERSIONS})
 
